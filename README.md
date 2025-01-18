@@ -6,3 +6,18 @@ The data is sourced from the [National Institute of Forest Development, Protecte
 
 **Note:** In case the Geoportal returns an HTTP 500 error, please refresh the page.
 
+## Usage Instructions
+To use the files, you can copy the permanent link of the dataset and append `?raw=true` at the end of the URL. This link can be used to load the data directly into a Python notebook using libraries such as `geopandas`.
+
+### Example
+```python
+import geopandas as gpd
+
+url = "https://github.com/your-repo/datasets/path/to/yourfile.geojson?raw=true"
+data = gpd.read_file(url)
+print(data.head())
+```
+
+Additionally, the datasets are available in `gpkg` and `shapefile` formats compressed in `.zip` files, which can be downloaded and used in GIS software.
+
+I hope this repository is useful for your projects and research.
