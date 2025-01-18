@@ -20,4 +20,6 @@ print(data.head())
 
 Additionally, the datasets are available in `gpkg` and `shapefile` formats compressed in `.zip` files, which can be downloaded and used in GIS software.
 
+You can explore this [Notebook](notebooks/download_wfs.ipynb) to see how the data was obtained from the Geoportal of the ICF.
+
 I hope this repository is useful for your projects and research.
