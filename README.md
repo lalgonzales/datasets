@@ -7,7 +7,7 @@ The data is sourced from the 🔗[National Institute of Forest Development, Prot
 **Note:** In case the Geoportal returns an HTTP 500 error, please refresh the page.
 
 ## Usage Instructions
-To use the files, you can copy the permanent link of the dataset and append `?raw=true` at the end of the URL. This link can be used to load the data directly into a Python notebook using libraries such as `geopandas`.
+To use the files, you can copy the link of the dataset and append `?raw=true` at the end of the URL. This link can be used to load the data directly into a Python notebook using libraries such as `geopandas`.
 
 ### Example
 ```python
